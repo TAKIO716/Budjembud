@@ -4,8 +4,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 const { GoalNear } = require('mineflayer-pathfinder').goals;
 
-const telegramToken = '7995481536:AAFjf4oGaMK9HR-4oWO2GIa06TO2nwsX1yk';
-const chatId = '6105537437';
+const telegramToken = 'isi token tele lu';
+const chatId = 'isi chatid tele lu/ id grup tele';
 
 const botTele = new TelegramBot(telegramToken, { polling: true });
 
@@ -85,7 +85,7 @@ function startBot() {
   mcBot = mineflayer.createBot({
     host: 'kalwi.id',
     port: 25565,
-    username: 'FyzoOx',
+    username: 'nickMC',
     auth: 'offline',
     version: '1.18.1',
     skipValidation: true
