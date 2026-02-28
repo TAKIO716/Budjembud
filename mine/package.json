@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mineflayer": "^4.35.0",
+    "vec3": "^0.1.10"
+  }
+}
